@@ -1,0 +1,45 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    border: 2px solid black;
+    background-color: blueviolet;
+}
+.login-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.login-email{
+    margin: 30px;
+    border: 2px solid black;
+}
+.login-password{
+    margin: 30px;
+    border: 2px solid black;
+}
+.login-button{
+    margin:  30px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+.login-exists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.login-signup{
+    text-decoration: none;
+    margin: 20px;
+}
